@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'photos_controller/index'
+  get 'photos_controller', to: 'photos_controller#index'
 
   get 'photos_controller/show'
 
