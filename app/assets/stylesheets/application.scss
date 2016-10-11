@@ -2,7 +2,7 @@
 // file: app/assets/stylesheets/application.scss
 @import "bootstrap"; // required by bootstrap
 @import "home";
-// @import "photos";   // load css from photos.scss
+@import "photos";   // load css from photos.scss
 
 // file: app/assets/stylesheets/photos.scss
 .card {

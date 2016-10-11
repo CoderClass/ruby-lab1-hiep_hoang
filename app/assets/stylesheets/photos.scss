@@ -1,0 +1,21 @@
+.card.photo {
+  width: 500px;
+  margin: 0 auto 30px;
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .avatar {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-left: -15px;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .timestamp {
+    font-size: 0.9em;
+  }
+}
