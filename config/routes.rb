@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  get 'photos_controller', to: 'photos_controller#index'
+  get 'photos', to: 'photos#index'
 
-  get 'photos_controller/show'
+  get 'photos/show'
 
-  root 'photos_controller#index'
+  root 'photos#index'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
